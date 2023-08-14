@@ -100,14 +100,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        /*
+
         btnDemo3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // Inflate the input.xml layout file
                 LayoutInflater inflater =
                         (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                View viewDialog = inflater.inflate(R.layout.input, null);
+                View viewDialog = inflater.inflate(R.layout.inputfirst, null);
 
                 // Obtain the UI component in the input.xml layout
                 // It needs to be defined as "final", so that it can used in the onClick() method later
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
                 myDialog.show();
             }
         });
-        */
+
 
 
         btnExercise3.setOnClickListener(new View.OnClickListener() {
